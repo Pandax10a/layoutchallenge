@@ -1,0 +1,53 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 35vh auto auto;
+}
+
+.hero-image {
+    background-image: url("grid_hero.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    padding: 3vw;
+    min-height: 50vh;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    row-gap: 10px;
+    
+}
+button:nth-child(1) {
+    background-color: rgb(31, 234, 241);
+    color: whitesmoke;
+    width: 80vw;
+    height: 5vh;
+    border-radius: 25px;
+}
+button:nth-child(2) {
+    border-style: solid;
+    
+    
+    color: black;
+    width: 80vw;
+    height: 5vh;
+    border-radius: 25px;
+}
