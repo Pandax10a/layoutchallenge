@@ -26,27 +26,31 @@ main {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   padding: 3vw;
-  min-height: 50vh;
+  min-height: 45vh;
 }
 
 footer {
   display: grid;
   place-items: center;
-  row-gap: 10px;
+  row-gap: 5px;
+  min-height: 15vh;
 }
 
 button:nth-child(1) {
   background-color: rgb(31, 234, 241);
   color: whitesmoke;
   width: 80vw;
-  height: 5vh;
-  border-radius: 25px;
+  height: 6vh;
+  border-radius: 45px;
 }
 
 button:nth-child(2) {
+  border: 2px;
   border-style: solid;
+  border-color: gray;
+  background-color: white;
   color: black;
   width: 80vw;
-  height: 5vh;
-  border-radius: 25px;
+  height: 6vh;
+  border-radius: 45px;
 }/*# sourceMappingURL=style.css.map */
